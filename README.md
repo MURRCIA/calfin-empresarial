@@ -259,9 +259,6 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ## 👨‍💻 Autor
 
 **Jesus Murcia**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: contacto@calfin.com
-- LinkedIn: [Tu LinkedIn](https://linkedin.com/in/tu-perfil)
 
 ## 🙏 Agradecimientos
 
@@ -269,13 +266,6 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - Tailwind CSS por el sistema de diseño
 - Comunidad de desarrolladores por el feedback
 
-## 📞 Soporte
-
-¿Necesitas ayuda? Contáctanos:
-
-- **Email**: soporte@calfin.com
-- **Teléfono**: +1 (555) 123-4567
-- **Horario**: Lun-Vie 9:00 AM - 6:00 PM
 
 ---
 
