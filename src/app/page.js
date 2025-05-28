@@ -13,7 +13,7 @@ export default function Home() {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Calculadora Empresarial
-            <span className="block text-blue-600">Inteligente</span>
+            <span className="block text-blue-600">Inteligente & Gratuita</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
             Descubre tus costos, ingresos y utilidades sin saber cálculo

@@ -160,7 +160,7 @@ export default function TerminosPage() {
             <div className="bg-gray-50 p-4 rounded-lg">
               <p className="text-gray-700"><strong>Email:</strong> legal@calfin.com</p>
               <p className="text-gray-700"><strong>Teléfono:</strong> +57 (555) 123-4567</p>
-              <p className="text-gray-700"><strong>Dirección:</strong> 123 Business Avenue, Tech District, TD 12345</p>
+              <p className="text-gray-700"><strong>Dirección:</strong> Carrera 100 # 100-100, Bogotá, Colombia</p>
             </div>
           </section>
 

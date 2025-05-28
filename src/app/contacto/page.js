@@ -181,7 +181,7 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Teléfono</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+57 (555) 123-4567</p>
                     <p className="text-gray-500 text-sm">Lun - Vie: 9:00 AM - 6:00 PM</p>
                   </div>
                 </div>
@@ -195,8 +195,8 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Oficina</h3>
-                    <p className="text-gray-600">123 Business Avenue</p>
-                    <p className="text-gray-600">Tech District, TD 12345</p>
+                    <p className="text-gray-600">Carrera 100 # 100-100</p>
+                    <p className="text-gray-600">Bogotá, Colombia</p>
                   </div>
                 </div>
               </div>

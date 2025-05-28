@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Image from 'next/image';
 
 export default function AcercaDePage() {
   return (
@@ -13,7 +14,7 @@ export default function AcercaDePage() {
             Acerca de Nosotros
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Somos un equipo apasionado por democratizar el análisis financiero empresarial
+            Somos un equipo apasionado por ayudar a los emprendedores a tener un análisis financiero empresarial rapido y sencillo.
           </p>
         </div>
 
@@ -34,34 +35,16 @@ export default function AcercaDePage() {
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Nuestro Equipo</h2>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className=" grid md:grid-cols-1 gap-8">
             {/* Miembro 1 */}
             <div className="text-center">
               <div className="bg-blue-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                <Image src="/images/jesus.png" alt="Ing. Jesus Murcia" width={100} height={100} className="rounded-full flex items-center justify-center mx-auto mb-4"/>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Ing. Jesus Murcia </h3>
-              <p className="text-blue-600 font-medium mb-3">Director de Desarrollo</p>
+              <p className="text-blue-600 font-medium mb-3">Director de Desarrollo y Fundador</p>
               <p className="text-gray-600 text-sm">
-                PhD en Matemáticas Aplicadas con 15 años de experiencia en modelado financiero. 
-                Especialista en algoritmos de optimización empresarial.
-              </p>
-            </div>
-
-            {/* Miembro 2 */}
-            <div className="text-center">
-              <div className="bg-green-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Ing. Carlos Rodríguez</h3>
-              <p className="text-green-600 font-medium mb-3">CTO y Cofundador</p>
-              <p className="text-gray-600 text-sm">
-                Ingeniero en Sistemas con experiencia en fintech. Experto en desarrollo de 
-                aplicaciones web escalables y arquitecturas de software empresarial.
+                Estudiante de Ingenieria en Sistemas, con experiencia en desarrollo de software y 5 años de experiencia en el sector financiero.
               </p>
             </div>
           </div>
@@ -80,7 +63,7 @@ export default function AcercaDePage() {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Simplicidad</h3>
               <p className="text-gray-600 text-sm">
-                Convertimos lo complejo en simple, haciendo accesible el análisis financiero para todos.
+                Convertimos lo complejo en simple, haciendo accesible el calculo y el análisis financiero para todos.
               </p>
             </div>
 
@@ -119,9 +102,9 @@ export default function AcercaDePage() {
                 1
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900">2023 - La Idea</h3>
+                <h3 className="font-semibold text-gray-900">2025 - La Idea</h3>
                 <p className="text-gray-700">
-                  Identificamos la necesidad de democratizar el análisis financiero para PyMEs.
+                  Identificamos la necesidad de tener herramientas para calcular y analizar el estado financiero.
                 </p>
               </div>
             </div>
@@ -131,9 +114,9 @@ export default function AcercaDePage() {
                 2
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900">2024 - Desarrollo</h3>
+                <h3 className="font-semibold text-gray-900">2025 - Desarrollo</h3>
                 <p className="text-gray-700">
-                  Creamos los primeros prototipos y validamos nuestras hipótesis con empresarios reales.
+                  Creamos los primeros prototipos y validamos nuestras hipótesis basado en estudios.
                 </p>
               </div>
             </div>
